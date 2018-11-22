@@ -6,6 +6,16 @@
     <Name>UK_Accidents_Database_Team12.database</Name>
     <FullPath>UK_Accidents_Database_Team12.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vehicles.dim</Name>
+      <FullPath>Vehicles.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>UK Accidents Database.ds</Name>
