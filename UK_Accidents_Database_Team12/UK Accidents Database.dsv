@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="84" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9018" scrolltop="23289" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17727" y="13520" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="85" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5028" scrolltop="3716" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="28760" y="16193" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -49,7 +49,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Accidents_Master" left="13823" top="25223" logicalid="43" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Accidents_Master" left="13752" top="23106" logicalid="43" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c0000b60f000088130000" />
                   </control>
@@ -247,7 +247,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="17545" top="24108" logicalid="61" controlid="20" masterid="0" hint1="0" hint2="0" width="12254" height="3915" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17474" top="24108" logicalid="61" controlid="20" masterid="0" hint1="0" hint2="0" width="12325" height="1798" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -263,11 +263,11 @@
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="22" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="29499" y="24507" />
                     <point x="23672" y="24507" />
-                    <point x="23672" y="27723" />
-                    <point x="17845" y="27723" />
+                    <point x="23672" y="25606" />
+                    <point x="17774" y="25606" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="15534" top="15929" logicalid="62" controlid="21" masterid="0" hint1="0" hint2="0" width="7935" height="9594" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15463" top="15929" logicalid="62" controlid="21" masterid="0" hint1="0" hint2="0" width="8006" height="7477" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -283,11 +283,11 @@
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="23069" y="16428" />
                     <point x="23069" y="20825" />
-                    <point x="15834" y="20825" />
-                    <point x="15834" y="25223" />
+                    <point x="15763" y="20825" />
+                    <point x="15763" y="23106" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="4701" top="27423" logicalid="63" controlid="22" masterid="0" hint1="0" hint2="0" width="9422" height="4979" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4701" top="27506" logicalid="63" controlid="22" masterid="0" hint1="0" hint2="0" width="9351" height="4896" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -300,14 +300,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="2" sourceattachpoint="27" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="2" sourceattachpoint="27" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="5001" y="32002" />
                     <point x="9412" y="32002" />
-                    <point x="9412" y="27723" />
-                    <point x="13823" y="27723" />
+                    <point x="9412" y="27806" />
+                    <point x="13752" y="27806" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="12774" top="29923" logicalid="64" controlid="23" masterid="0" hint1="0" hint2="0" width="3360" height="5128" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12774" top="27806" logicalid="64" controlid="23" masterid="0" hint1="0" hint2="0" width="3289" height="7245" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -323,8 +323,8 @@
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="2" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="13173" y="34551" />
                     <point x="13173" y="32387" />
-                    <point x="15834" y="32387" />
-                    <point x="15834" y="30223" />
+                    <point x="15763" y="32387" />
+                    <point x="15763" y="28106" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="23219" top="8529" logicalid="65" controlid="24" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -681,12 +681,32 @@
                     <point x="9412" y="22823" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4701" top="27408" logicalid="84" controlid="43" masterid="0" hint1="0" hint2="0" width="25098" height="2694" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DimVehicles-DimCasualties]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="9" sourceattachpoint="34" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="29499" y="27807" />
+                    <point x="17250" y="27807" />
+                    <point x="17250" y="29802" />
+                    <point x="5001" y="29802" />
+                  </connector>
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-9018</DiagramViewPortLeft>
-            <DiagramViewPortTop>23289</DiagramViewPortTop>
+            <DiagramViewPortLeft>5028</DiagramViewPortLeft>
+            <DiagramViewPortTop>3716</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -952,6 +972,48 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="PoliceForce" msdata:ReadOnly="true" msprop:design-time-name="1bd221fe-c93e-4a6b-ad05-95aa1dee5dc8" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="PoliceForce" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Police_Force=1 THEN 'Metropolitan Police'&#xD;&#xA;When Police_Force=3 THEN 'Cumbria'&#xD;&#xA;When Police_Force=4 THEN 'Lancashire'&#xD;&#xA;When Police_Force=5 THEN 'Merseyside'&#xD;&#xA;When Police_Force=6 THEN 'Greater Manchester'&#xD;&#xA;When Police_Force=7 THEN 'Cheshire'&#xD;&#xA;When Police_Force=10 THEN 'Northumbria'&#xD;&#xA;When Police_Force=11 THEN 'Durham'&#xD;&#xA;When Police_Force=12 THEN 'North Yorkshire'&#xD;&#xA;When Police_Force=13 THEN 'West Yorkshire'&#xD;&#xA;When Police_Force=14 THEN 'South Yorkshire'&#xD;&#xA;When Police_Force=16 THEN 'Humberside'&#xD;&#xA;When Police_Force=17 THEN 'Cleveland'&#xD;&#xA;When Police_Force=20 THEN 'West Midlands'&#xD;&#xA;When Police_Force=21 THEN 'Staffordshire'&#xD;&#xA;When Police_Force=22 THEN 'West Mercia'&#xD;&#xA;When Police_Force=23 THEN 'Warwickshire'&#xD;&#xA;When Police_Force=30 THEN 'Derbyshire'&#xD;&#xA;When Police_Force=31 THEN 'Nottinghamshire'&#xD;&#xA;When Police_Force=32 THEN 'Lincolnshire'&#xD;&#xA;When Police_Force=33 THEN 'Leicestershire'&#xD;&#xA;When Police_Force=34 THEN 'Northamptonshire'&#xD;&#xA;When Police_Force=35 THEN 'Cambridgeshire'&#xD;&#xA;When Police_Force=36 THEN 'Norfolk'&#xD;&#xA;When Police_Force=37 THEN 'Suffolk'&#xD;&#xA;When Police_Force=40 THEN 'Bedfordshire'&#xD;&#xA;When Police_Force=41 THEN 'Hertfordshire'&#xD;&#xA;When Police_Force=42 THEN 'Essex'&#xD;&#xA;When Police_Force=43 THEN 'Thames Valley'&#xD;&#xA;When Police_Force=44 THEN 'Hampshire'&#xD;&#xA;When Police_Force=45 THEN 'Surrey'&#xD;&#xA;When Police_Force=46 THEN 'Kent'&#xD;&#xA;When Police_Force=47 THEN 'Sussex'&#xD;&#xA;When Police_Force=48 THEN 'City of London'&#xD;&#xA;When Police_Force=50 THEN 'Devon and Cornwall'&#xD;&#xA;When Police_Force=52 THEN 'Avon and Somerset'&#xD;&#xA;When Police_Force=53 THEN 'Gloucestershire'&#xD;&#xA;When Police_Force=54 THEN 'Wiltshire'&#xD;&#xA;When Police_Force=55 THEN 'Dorset'&#xD;&#xA;When Police_Force=60 THEN 'North Wales'&#xD;&#xA;When Police_Force=61 THEN 'Gwent'&#xD;&#xA;When Police_Force=62 THEN 'South Wales'&#xD;&#xA;When Police_Force=63 THEN 'Dyfed-Powys'&#xD;&#xA;When Police_Force=91 THEN 'Northern'&#xD;&#xA;When Police_Force=92 THEN 'Grampian'&#xD;&#xA;When Police_Force=93 THEN 'Tayside'&#xD;&#xA;When Police_Force=94 THEN 'Fife'&#xD;&#xA;When Police_Force=95 THEN 'Lothian and Borders'&#xD;&#xA;When Police_Force=96 THEN 'Central'&#xD;&#xA;When Police_Force=97 THEN 'Strathclyde'&#xD;&#xA;When Police_Force=98 THEN 'Dumfries and Galloway'&#xD;&#xA;ELSE 'No Data'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="21" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LocalAuthHighway" msdata:ReadOnly="true" msprop:design-time-name="f85b9412-7ce6-4c4f-a48f-6f8d6e7969dc" msprop:IsLogical="True" msprop:FriendlyName="LocalAuthHighway" msprop:Description="" msprop:DbColumnName="LocalAuthHighway" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Local_Authority_Highway='E09000001' THEN 'City of London'&#xD;&#xA;When Local_Authority_Highway='E09000003' THEN 'Barnet'&#xD;&#xA;When Local_Authority_Highway='E09000005' THEN 'Brent'&#xD;&#xA;When Local_Authority_Highway='E09000007' THEN 'Camden'&#xD;&#xA;When Local_Authority_Highway='E09000012' THEN 'Hackney'&#xD;&#xA;When Local_Authority_Highway='E09000013' THEN 'Hammersmith and Fulham'&#xD;&#xA;When Local_Authority_Highway='E09000019' THEN 'Islington'&#xD;&#xA;When Local_Authority_Highway='E09000020' THEN 'Kensington and Chelsea'&#xD;&#xA;When Local_Authority_Highway='E09000033' THEN 'Westminster'&#xD;&#xA;ELSE 'Unknown'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="22" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="WeatherConditions" msdata:ReadOnly="true" msprop:design-time-name="a6386217-89ba-4b93-9abf-dba12c6e7115" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="WeatherConditions" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Weather_Conditions=1 THEN 'Fine no high winds'&#xD;&#xA;When Weather_Conditions=2 THEN 'Raining no high winds'&#xD;&#xA;When Weather_Conditions=3 THEN 'Snowing no high winds'&#xD;&#xA;When Weather_Conditions=4 THEN 'Fine + high winds'&#xD;&#xA;When Weather_Conditions=5 THEN 'Raining + high winds'&#xD;&#xA;When Weather_Conditions=6 THEN 'Snowing + high winds'&#xD;&#xA;When Weather_Conditions=7 THEN 'Fog or mist'&#xD;&#xA;When Weather_Conditions=8 THEN 'Other'&#xD;&#xA;When Weather_Conditions=9 THEN 'Unknown'&#xD;&#xA;When Weather_Conditions=-1 THEN 'Data missing or out of range'&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="28" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RoadSurfaceConditions" msdata:ReadOnly="true" msprop:design-time-name="0ce0f1bb-6a9e-451b-b781-fcaf7e91dc93" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="RoadSurfaceConditions" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Road_Surface_Conditions=1 THEN 'Dry'&#xD;&#xA;When Road_Surface_Conditions=2 THEN 'Wet or damp'&#xD;&#xA;When Road_Surface_Conditions=3 THEN 'Snow'&#xD;&#xA;When Road_Surface_Conditions=4 THEN 'Frost or ice'&#xD;&#xA;When Road_Surface_Conditions=5 THEN 'Flood over 3cm. deep'&#xD;&#xA;When Road_Surface_Conditions=6 THEN 'Oil or diesel'&#xD;&#xA;When Road_Surface_Conditions=7 THEN 'Mud'&#xD;&#xA;When Road_Surface_Conditions=-1 THEN 'Data missing or out of range'&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="28" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SpecialCondAtSite" msdata:ReadOnly="true" msprop:design-time-name="2c89995f-35bd-4fef-a7d1-72c131b38536" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="SpecialCondAtSite" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Special_Conditions_at_Site=0 THEN 'None'&#xD;&#xA;When Special_Conditions_at_Site=1 THEN 'Auto traffic signal - out'&#xD;&#xA;When Special_Conditions_at_Site=2 THEN 'Auto signal part defective'&#xD;&#xA;When Special_Conditions_at_Site=3 THEN 'Road sign or marking defective or obscured'&#xD;&#xA;When Special_Conditions_at_Site=4 THEN 'Roadworks'&#xD;&#xA;When Special_Conditions_at_Site=5 THEN 'Road surface defective'&#xD;&#xA;When Special_Conditions_at_Site=6 THEN 'Oil or diesel'&#xD;&#xA;When Special_Conditions_at_Site=7 THEN 'Mud'&#xD;&#xA;When Special_Conditions_at_Site=-1 THEN 'Data missing or out of range'&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="42" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PoliceOfficerAttend" msdata:ReadOnly="true" msprop:design-time-name="b5d15714-a4ac-4d51-9213-cd94d41ac5f4" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="PoliceOfficerAttend" msprop:ComputedColumnExpression="CASE&#xD;&#xA;When Police_Officer_Attend=1 THEN 'Yes'&#xD;&#xA;When Police_Officer_Attend=2 THEN 'No'&#xD;&#xA;When Police_Officer_Attend=3 THEN 'No - accident was reported using a self completion  form (self rep only)'&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="72" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1029,6 +1091,34 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CasualtyArea" msdata:ReadOnly="true" msprop:design-time-name="c9cc27cf-e22f-46ef-8a41-06755389c5d8" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="CasualtyArea" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Casualty_Home_Area_Type = '1' THEN 'Urban Area'&#xD;&#xA;&#x9;WHEN Casualty_Home_Area_Type = '2' THEN 'Small Town'&#xD;&#xA;&#x9;WHEN Casualty_Home_Area_Type = '3' THEN 'Rural'&#xD;&#xA;&#x9;ELSE 'Unknown'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MaintWorker" msdata:ReadOnly="true" msprop:design-time-name="b6cb3a0f-ee7e-4945-9319-aebfd7d50714" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="MaintWorker" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Maintenance_Worker = '0' THEN 'No'&#xD;&#xA;&#x9;WHEN Maintenance_Worker = '1' THEN 'Yes'&#xD;&#xA;&#x9;WHEN Maintenance_Worker = '2' THEN 'Unknown'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SexOfCasualty" msdata:ReadOnly="true" msprop:design-time-name="0fe0c688-a70c-4f68-bbc2-6b02787e69d1" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="SexOfCasualty" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Sex_of_Casualty = '1' THEN 'Male'&#xD;&#xA;&#x9;WHEN Sex_of_Casualty = '2' THEN 'Female'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CarPassenger" msdata:ReadOnly="true" msprop:design-time-name="7015ff9d-2e27-4ef0-a16f-4fa69b0cf7da" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="CarPassenger" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Car_Passenger = '0' THEN 'Not car passenger'&#xD;&#xA;&#x9;WHEN Car_Passenger = '1' THEN 'Front seat passenger'&#xD;&#xA;&#x9;WHEN Car_Passenger = '2' THEN 'Rear seat passenger'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1189,21 +1279,14 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="GenderOfDriver" msdata:ReadOnly="true" msprop:design-time-name="2d4baf36-9b0a-484f-a1f3-6ccf9cf7ee65" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="GenderOfDriver" msprop:ComputedColumnExpression="CASE &#xD;&#xA;&#x9;WHEN Sex_of_Driver = '1' THEN 'Male'&#xD;&#xA;&#x9;WHEN Sex_of_Driver = '2' THEN 'Female'&#x9;&#x9;&#xD;&#xA;&#x9;WHEN Sex_of_Driver = '3' THEN 'Not Known'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="9" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="PointOfImpact" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '0' THEN 'Did Not Impact'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '1' THEN 'Front'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '2' THEN 'Back'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '3' THEN 'Offside'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '4' THEN 'Nearside'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="319374ae-4370-4497-9cc9-4116a11a4635" msprop:DbColumnName="PointOfImpact">
+                  <xs:element name="PointOfImpact" msdata:ReadOnly="true" msprop:design-time-name="319374ae-4370-4497-9cc9-4116a11a4635" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="PointOfImpact" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '0' THEN 'Did Not Impact'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '1' THEN 'Front'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '2' THEN 'Back'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '3' THEN 'Offside'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '4' THEN 'Nearside'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="14" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="JourneyPurpose" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '1' THEN 'For Work'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '2' THEN 'To/From Work'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '3' THEN 'Driving pupil to/from School'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '4' THEN 'Pupil riding to/from School'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '5' THEN 'Other'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '6' THEN 'Unknown'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="fce47f56-b724-45ad-9865-b4ca1e17fadf" msprop:DbColumnName="JourneyPurpose">
+                  <xs:element name="JourneyPurpose" msdata:ReadOnly="true" msprop:design-time-name="fce47f56-b724-45ad-9865-b4ca1e17fadf" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="JourneyPurpose" msprop:ComputedColumnExpression="CASE&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '1' THEN 'For Work'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '2' THEN 'To/From Work'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '3' THEN 'Driving pupil to/from School'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '4' THEN 'Pupil riding to/from School'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '5' THEN 'Other'&#xD;&#xA;&#x9;WHEN Point_Of_Impact = '6' THEN 'Unknown'&#xD;&#xA;&#x9;ELSE 'No Data'&#xD;&#xA;END">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="28" />
@@ -1432,95 +1515,100 @@
           <xs:selector xpath=".//dbo_Vehicle_Type" />
           <xs:field xpath="Vehicle_Type" />
         </xs:unique>
-        <xs:keyref name="FK_FactVehicles_DimAccidents" refer="dbo_DimAccidents_Constraint1">
+        <xs:keyref name="FK_FactVehicles_DimDate" refer="dbo_DimDate_Constraint1">
           <xs:selector xpath=".//dbo_FactVehicles" />
-          <xs:field xpath="Accident_Index" />
+          <xs:field xpath="datetimekey" />
         </xs:keyref>
         <xs:keyref name="FK_FactVehicles_DimVehicles" refer="dbo_DimVehicles_Constraint1">
           <xs:selector xpath=".//dbo_FactVehicles" />
           <xs:field xpath="Vehicle_Index" />
         </xs:keyref>
-        <xs:keyref name="FK_FactVehicles_DimDate" refer="dbo_DimDate_Constraint1">
+        <xs:keyref name="FK_FactVehicles_DimAccidents" refer="dbo_DimAccidents_Constraint1">
           <xs:selector xpath=".//dbo_FactVehicles" />
+          <xs:field xpath="Accident_Index" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactCasualties_DimCasualties" refer="dbo_DimCasualties_Constraint1">
+          <xs:selector xpath=".//dbo_FactCasualties" />
+          <xs:field xpath="Casualty_Index" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactCasualties_DimDate" refer="dbo_DimDate_Constraint1">
+          <xs:selector xpath=".//dbo_FactCasualties" />
           <xs:field xpath="datetimekey" />
         </xs:keyref>
         <xs:keyref name="FK_FactCasualties_DimAccidents" refer="dbo_DimAccidents_Constraint1">
           <xs:selector xpath=".//dbo_FactCasualties" />
           <xs:field xpath="Accident_Index" />
         </xs:keyref>
-        <xs:keyref name="FK_FactCasualties_DimDate" refer="dbo_DimDate_Constraint1">
-          <xs:selector xpath=".//dbo_FactCasualties" />
+        <xs:keyref name="FK_FactAccidents_DimDate" refer="dbo_DimDate_Constraint1">
+          <xs:selector xpath=".//dbo_FactAccidents" />
           <xs:field xpath="datetimekey" />
-        </xs:keyref>
-        <xs:keyref name="FK_FactCasualties_DimCasualties" refer="dbo_DimCasualties_Constraint1">
-          <xs:selector xpath=".//dbo_FactCasualties" />
-          <xs:field xpath="Casualty_Index" />
         </xs:keyref>
         <xs:keyref name="FK_FactAccidents_DimAccidents" refer="dbo_DimAccidents_Constraint1">
           <xs:selector xpath=".//dbo_FactAccidents" />
           <xs:field xpath="Accident_Index" />
         </xs:keyref>
-        <xs:keyref name="FK_FactAccidents_DimDate" refer="dbo_DimDate_Constraint1">
-          <xs:selector xpath=".//dbo_FactAccidents" />
-          <xs:field xpath="datetimekey" />
-        </xs:keyref>
-        <xs:keyref name="FK_DimVehicles_Vehicle_Type" refer="dbo_Vehicle_Type_Constraint1">
+        <xs:keyref name="FK_DimVehicles_Vehicle_Manoeuvre" refer="dbo_Vehicle_Manoeuvre_Constraint1">
           <xs:selector xpath=".//dbo_DimVehicles" />
-          <xs:field xpath="Vehicle_Type" />
+          <xs:field xpath="Vehicle_Manoeuvre" />
         </xs:keyref>
         <xs:keyref name="FK_DimVehicles_Sex_of_Driver" refer="dbo_Sex_of_Driver_Constraint1">
           <xs:selector xpath=".//dbo_DimVehicles" />
           <xs:field xpath="Sex_of_Driver" />
         </xs:keyref>
-        <xs:keyref name="FK_DimVehicles_Vehicle_Manoeuvre" refer="dbo_Vehicle_Manoeuvre_Constraint1">
+        <xs:keyref name="FK_DimVehicles_Vehicle_Type" refer="dbo_Vehicle_Type_Constraint1">
           <xs:selector xpath=".//dbo_DimVehicles" />
-          <xs:field xpath="Vehicle_Manoeuvre" />
-        </xs:keyref>
-        <xs:keyref name="FK_DimCasualties_Casualty_Class" refer="dbo_Casualty_Class_Constraint1">
-          <xs:selector xpath=".//dbo_DimCasualties" />
-          <xs:field xpath="Casualty_Class" />
-        </xs:keyref>
-        <xs:keyref name="FK_DimCasualties_Casualty_Severity" refer="dbo_Casualty_Severity_Constraint1">
-          <xs:selector xpath=".//dbo_DimCasualties" />
-          <xs:field xpath="Casualty_Severity" />
+          <xs:field xpath="Vehicle_Type" />
         </xs:keyref>
         <xs:keyref name="FK_DimCasualties_Casualty_Type" refer="dbo_Casualty_Type_Constraint1">
           <xs:selector xpath=".//dbo_DimCasualties" />
           <xs:field xpath="Casualty_Type" />
         </xs:keyref>
-        <xs:keyref name="FK_DimAccidents_Road_Type" refer="dbo_Road_Type_Constraint1">
-          <xs:selector xpath=".//dbo_DimAccidents" />
-          <xs:field xpath="Road_Type" />
+        <xs:keyref name="FK_DimCasualties_Casualty_Severity" refer="dbo_Casualty_Severity_Constraint1">
+          <xs:selector xpath=".//dbo_DimCasualties" />
+          <xs:field xpath="Casualty_Severity" />
         </xs:keyref>
-        <xs:keyref name="FK_DimAccidents_Local_Authority_District" refer="dbo_Local_Authority_District_Constraint1">
-          <xs:selector xpath=".//dbo_DimAccidents" />
-          <xs:field xpath="Local_Authority_District" />
-        </xs:keyref>
-        <xs:keyref name="FK_DimAccidents_Light_Conditions" refer="dbo_Light_Conditions_Constraint1">
-          <xs:selector xpath=".//dbo_DimAccidents" />
-          <xs:field xpath="Light_Conditions" />
+        <xs:keyref name="FK_DimCasualties_Casualty_Class" refer="dbo_Casualty_Class_Constraint1">
+          <xs:selector xpath=".//dbo_DimCasualties" />
+          <xs:field xpath="Casualty_Class" />
         </xs:keyref>
         <xs:keyref name="FK_DimAccidents_Accident_Severity" refer="Constraint1">
           <xs:selector xpath=".//dbo_DimAccidents" />
           <xs:field xpath="Accident_Severity" />
         </xs:keyref>
-        <xs:keyref name="FK__Accidents__Casua__4E88ABD4" refer="dbo_DimCasualties_Constraint1">
-          <xs:selector xpath=".//dbo_Accidents_Master" />
-          <xs:field xpath="Casuality_Index" />
+        <xs:keyref name="FK_DimAccidents_Light_Conditions" refer="dbo_Light_Conditions_Constraint1">
+          <xs:selector xpath=".//dbo_DimAccidents" />
+          <xs:field xpath="Light_Conditions" />
         </xs:keyref>
-        <xs:keyref name="FK__Accidents__Accid__4D94879B" refer="dbo_DimAccidents_Constraint1">
-          <xs:selector xpath=".//dbo_Accidents_Master" />
-          <xs:field xpath="Accident_Index" />
+        <xs:keyref name="FK_DimAccidents_Local_Authority_District" refer="dbo_Local_Authority_District_Constraint1">
+          <xs:selector xpath=".//dbo_DimAccidents" />
+          <xs:field xpath="Local_Authority_District" />
         </xs:keyref>
-        <xs:keyref name="FK__Accidents__Vehic__4F7CD00D" refer="dbo_DimVehicles_Constraint1">
-          <xs:selector xpath=".//dbo_Accidents_Master" />
-          <xs:field xpath="Vehicle_Index" />
+        <xs:keyref name="FK_DimAccidents_Road_Type" refer="dbo_Road_Type_Constraint1">
+          <xs:selector xpath=".//dbo_DimAccidents" />
+          <xs:field xpath="Road_Type" />
         </xs:keyref>
         <xs:keyref name="FK__Accidents__Datet__5070F446" refer="dbo_DimDate_Constraint1">
           <xs:selector xpath=".//dbo_Accidents_Master" />
           <xs:field xpath="Datetimekey" />
         </xs:keyref>
+        <xs:keyref name="FK__Accidents__Vehic__4F7CD00D" refer="dbo_DimVehicles_Constraint1">
+          <xs:selector xpath=".//dbo_Accidents_Master" />
+          <xs:field xpath="Vehicle_Index" />
+        </xs:keyref>
+        <xs:keyref name="FK__Accidents__Accid__4D94879B" refer="dbo_DimAccidents_Constraint1">
+          <xs:selector xpath=".//dbo_Accidents_Master" />
+          <xs:field xpath="Accident_Index" />
+        </xs:keyref>
+        <xs:keyref name="FK__Accidents__Casua__4E88ABD4" refer="dbo_DimCasualties_Constraint1">
+          <xs:selector xpath=".//dbo_Accidents_Master" />
+          <xs:field xpath="Casuality_Index" />
+        </xs:keyref>
       </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="DimVehicles-DimCasualties" msdata:parent="dbo_DimCasualties" msdata:child="dbo_DimVehicles" msdata:parentkey="Vehicle_Reference" msdata:childkey="Vehicle_Reference" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
     </xs:schema>
     <UK_x0020_Accidents_x0020_Database xmlns="" />
   </Schema>

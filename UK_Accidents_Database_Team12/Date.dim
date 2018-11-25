@@ -1,8 +1,8 @@
 ﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8f391909-a547-449a-aa36-8117e0d4f439" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Date</ID>
   <Name>Date</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -111,7 +111,7 @@
       </Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3abc15d5-1939-4779-b1ff-207f6a1f144b">
     <DataSourceViewID>UK Accidents Database</DataSourceViewID>
@@ -128,6 +128,7 @@
       <ID>Hour</ID>
       <Name>Hour</Name>
       <Type>Hours</Type>
+      <EstimatedCount>1112430</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="b4b2f90d-1bb5-4dcc-8450-0b46c4302b3d">
           <DataType>Double</DataType>
@@ -158,6 +159,7 @@
       <ID>Minute</ID>
       <Name>Minute</Name>
       <Type>Minutes</Type>
+      <EstimatedCount>1112430</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="79b523c2-e3c4-4e81-b700-1380ed5ac06b">
           <DataType>Double</DataType>
@@ -188,6 +190,7 @@
       <ID>Month Name</ID>
       <Name>Month Name</Name>
       <Type>Months</Type>
+      <EstimatedCount>4017</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="3dbbfd62-c717-4bb1-a16d-58983e125e12">
           <DataType>Date</DataType>
@@ -219,6 +222,7 @@
       <ID>Calendar Year</ID>
       <Name>Calendar Year</Name>
       <Type>Years</Type>
+      <EstimatedCount>4017</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="633aeac0-31b0-4a13-aaab-eac219626565">
           <DataType>Date</DataType>
@@ -244,6 +248,7 @@
       <ID>Day Of Month</ID>
       <Name>Day Of Month</Name>
       <Type>DayOfMonth</Type>
+      <EstimatedCount>4017</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="a4e8930d-6561-4385-b808-5a85364696a2">
           <DataType>Date</DataType>

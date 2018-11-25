@@ -1,0 +1,494 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e942f1ff-2ff9-48b2-bc0d-7cf5bdb4e22d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Casualties</ID>
+  <Name>Casualties</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2" scrolltop="-1358" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="10266" y="14446" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Casualty_Type" left="430" top="11679" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000310f000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Casualty_Type" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Casualty_Class" left="417" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004c0f000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Casualty_Class" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Casualties" left="20" top="4279" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00006612000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCasualties" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Casualty_Severity" left="7130" top="5839" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4260" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000a410000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Casualty_Severity" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1975" top="8979" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimCasualties_Casualty_Type]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2374" y="11679" />
+              <point x="2374" y="10479" />
+              <point x="2375" y="10479" />
+              <point x="2375" y="9279" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1976" top="1380" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimCasualties_Casualty_Class]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2375" y="1879" />
+              <point x="2375" y="4279" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4430" top="6379" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimCasualties_Casualty_Severity]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7130" y="6778" />
+              <point x="5930" y="6778" />
+              <point x="5930" y="6779" />
+              <point x="4730" y="6779" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1358</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>86</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="188">
+            <Shape Id="Casuality Index" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casuality Index" />
+                <Attribute Id="Casualty Severity Desc" />
+                <Attribute Id="Maint Worker" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Casualties - Sex Of Casualty" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casualties - Sex Of Casualty" />
+              </Attributes>
+              <Position x="260" y="20" />
+            </Shape>
+            <Shape Id="Casualties - Car Passenger" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casualties - Car Passenger" />
+              </Attributes>
+              <Position x="500" y="20" />
+            </Shape>
+            <Shape Id="Casualty Type Desc" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casualty Type Desc" />
+              </Attributes>
+              <Position x="740" y="20" />
+            </Shape>
+            <Shape Id="Casualty Area" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casualty Area" />
+              </Attributes>
+              <Position x="980" y="20" />
+            </Shape>
+            <Shape Id="Casualty Class Desc" Expanded="false">
+              <Attributes>
+                <Attribute Id="Casualty Class Desc" />
+              </Attributes>
+              <Position x="1220" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="39621c2c-49fb-4a4b-8b1d-8556fd0313c0">
+    <DataSourceViewID>UK Accidents Database</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="c0e08645-f554-4e14-ac42-1bbbbe8c53b0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b56fc96c-eeeb-464b-a6ce-e501c6200d3d">
+      <ID>Casuality Index</ID>
+      <Name>Casuality Index</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0992ba73-99f9-4f41-9455-01b146bf1363">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e6c08c2-b893-4de7-b893-caca7f714097">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="398cfee0-b086-4fea-af78-878e96cf97d2">
+          <AttributeID>Maint Worker</AttributeID>
+          <Name>Maint Worker</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="337f2617-a508-41c9-b6c4-272d91b165dd">
+          <AttributeID>Casualty Severity Desc</AttributeID>
+          <Name>Casualty Severity Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b42a5abf-6c9d-4f3c-a51d-eba53085824d">
+          <AttributeID>Casualties - Sex Of Casualty</AttributeID>
+          <Name>Casualties - Sex Of Casualty</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="558fc2e3-0e8f-4eca-b127-5dce3d0e4447">
+      <ID>Casualty Area</ID>
+      <Name>Casualty Area</Name>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29d3d680-662c-4c33-b620-c649892ab81c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec8b155d-8a93-4c9f-bb65-4fd8370c5a9b">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4e698716-b9f7-457f-a6e6-c5a131963a58">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5f997036-78fb-495d-8fde-4ec60f53330d">
+          <TableID>dbo_DimCasualties</TableID>
+          <ColumnID>CasualtyArea</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="26acd09d-2540-457d-a6c4-5761d5d2ffe7">
+          <AttributeID>Casualty Class Desc</AttributeID>
+          <Name>Casualty Class Desc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0fe175db-acc6-40de-8365-d6cb67c34fab">
+      <ID>Maint Worker</ID>
+      <Name>Maint Worker</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f319a4a-78a0-44c7-9428-81813547a618">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae02a415-68c6-4ddb-b3b8-d0b6ea87c737">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="02ca95b9-c3a4-4233-bb5c-418ddf3aa6b3">
+        <DataType>WChar</DataType>
+        <DataSize>7</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f4058198-3699-4da3-bbe3-7ce125042ea7">
+          <TableID>dbo_DimCasualties</TableID>
+          <ColumnID>MaintWorker</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e739140d-484b-4455-893c-94600d85ac74">
+      <ID>Casualties - Sex Of Casualty</ID>
+      <Name>Casualties - Sex Of Casualty</Name>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cbd42513-d572-4349-bbcd-05f62a87399a">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50f895f7-d79f-4bf0-930b-6477a980cc04">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3bb94ddd-a14d-4b7f-829a-b851507354ed">
+        <DataType>WChar</DataType>
+        <DataSize>7</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d39814db-ff0d-4307-a897-59a2636b6313">
+          <TableID>dbo_DimCasualties</TableID>
+          <ColumnID>SexOfCasualty</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2e4c1cc4-20b8-46ed-8c4b-b50432572d76">
+          <AttributeID>Casualties - Car Passenger</AttributeID>
+          <Name>Casualties - Car Passenger</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c7b789e6-c3d0-4f98-bfc5-257951f55e2f">
+      <ID>Casualties - Car Passenger</ID>
+      <Name>Casualties - Car Passenger</Name>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="15158604-d293-4cce-b70c-cc73b43c6633">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18a2ffe7-fc84-49bb-9fc3-5fb4ecfce9b4">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0338fffd-1027-4b55-bfd8-d6e6b9ba0118">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9b27ae8a-7256-4078-a603-544f95883d7d">
+          <TableID>dbo_DimCasualties</TableID>
+          <ColumnID>CarPassenger</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b863fed1-cf6b-492d-ad11-6d73f2b61c26">
+          <AttributeID>Casualty Type Desc</AttributeID>
+          <Name>Casualty Type Desc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="345bdb7a-0f8d-4c9b-b58e-17e250f2da02">
+      <ID>Casualty Class Desc</ID>
+      <Name>Casualty Class Desc</Name>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="caed75c1-fc79-49e7-bcbe-b47274b04373">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="995bbae8-d573-4ad0-8454-95bc68860518">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c5f36769-0de5-4e60-b0e4-cbaea821c282">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c391309c-c16d-4ed0-8bd6-73f8c1b3dddd">
+          <TableID>dbo_Casualty_Class</TableID>
+          <ColumnID>Casualty_Class_Desc</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f6d61990-339a-4985-8128-21a2792cc5b5">
+      <ID>Casualty Severity Desc</ID>
+      <Name>Casualty Severity Desc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="db7902b0-6bdf-4bcd-979b-cab8baedeab5">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1db0eba7-14fa-4ca8-ae56-b651a1c3ad4d">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="395ad42f-7b7e-44e3-aaf3-1a878387059c">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1f74d0e1-f745-4cc7-bad1-85f69343ef93">
+          <TableID>dbo_Casualty_Severity</TableID>
+          <ColumnID>Casualty_Severity_Desc</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c87d39c8-90ba-4071-87ac-e3cae578a06c">
+      <ID>Casualty Type Desc</ID>
+      <Name>Casualty Type Desc</Name>
+      <EstimatedCount>2402909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a94eb2c5-427d-4efc-a72a-7d826b163b92">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a6f7c1f7-a055-49eb-a8f5-a146fe5b0018">
+            <TableID>dbo_DimCasualties</TableID>
+            <ColumnID>Casuality_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="79c57eae-e1a5-4d27-8656-6ac91b435f6c">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f102f5a0-f061-4122-b7d3-d280717a2b73">
+          <TableID>dbo_Casualty_Type</TableID>
+          <ColumnID>Casualty_Type_Desc</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ee61e22c-cded-45e3-8d0f-4afe8e3cb86e">
+          <AttributeID>Casualty Area</AttributeID>
+          <Name>Casualty Area</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="03826df3-e01d-44a2-9141-5dcfbdb53e03">
+      <ID>Hierarchy</ID>
+      <Name>Casualty Description</Name>
+      <Levels>
+        <Level dwd:design-time-name="6d99b5f3-29d4-4d0b-81e4-685d0afe1262">
+          <ID>Casualty Class Desc</ID>
+          <Name>Casualty Class Desc</Name>
+          <SourceAttributeID>Casualty Class Desc</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1d9015ec-3dba-4b3a-b893-3c6d5f3b0601">
+          <ID>Casualty Area</ID>
+          <Name>Casualty Area</Name>
+          <SourceAttributeID>Casualty Area</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ca6ed30e-3be4-4931-b5a1-1f988f9f9c04">
+          <ID>Casualty Type Desc</ID>
+          <Name>Casualty Type Desc</Name>
+          <SourceAttributeID>Casualty Type Desc</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="994a5ac1-3eee-4c72-9143-e70a32773928">
+      <ID>Hierarchy 1</ID>
+      <Name>Casualty Demographic</Name>
+      <Levels>
+        <Level dwd:design-time-name="424fd983-9337-4300-935b-f6df708f094d">
+          <ID>Casualty Type Desc</ID>
+          <Name>Casualty Type Desc</Name>
+          <SourceAttributeID>Casualty Type Desc</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e4c0f65e-9e07-4559-80c2-2239f0f99f17">
+          <ID>Casualties - Car Passenger</ID>
+          <Name>Casualties - Car Passenger</Name>
+          <SourceAttributeID>Casualties - Car Passenger</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="39bb1379-5ae0-47fa-8f2c-9adb1378ce0a">
+          <ID>Casualties - Sex Of Casualty</ID>
+          <Name>Casualties - Sex Of Casualty</Name>
+          <SourceAttributeID>Casualties - Sex Of Casualty</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

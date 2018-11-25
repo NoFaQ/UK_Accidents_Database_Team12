@@ -6,6 +6,18 @@
     <Name>UK_Accidents_Database_Team12.database</Name>
     <FullPath>UK_Accidents_Database_Team12.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>UK Accidents Database_Team12.cube</Name>
+      <FullPath>UK Accidents Database_Team12.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>UK Accidents Database_Team12.partitions</Name>
+          <FullPath>UK Accidents Database_Team12.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Date.dim</Name>
@@ -14,6 +26,14 @@
     <ProjectItem>
       <Name>Vehicles.dim</Name>
       <FullPath>Vehicles.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Casualties.dim</Name>
+      <FullPath>Casualties.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Accidents.dim</Name>
+      <FullPath>Accidents.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

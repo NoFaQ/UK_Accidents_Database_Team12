@@ -1,0 +1,339 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e0b1afa0-e837-4c00-9a0a-18f52360c04e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>UK Accidents Database</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Accidents Master</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b524fd87-1a9e-4279-aca8-3f8296ae66d4">
+          <ID>Accidents Master</ID>
+          <Name>Accidents Master less than 18</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="a330adda-5889-48a8-aaa0-1de934397105">
+            <DataSourceID>UK Accidents Database</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[Accidents_Master].[Accident_key],[dbo].[Accidents_Master].[Accident_Index],[dbo].[Accidents_Master].[Casuality_Index],[dbo].[Accidents_Master].[Vehicle_Index],[dbo].[Accidents_Master].[Datetimekey],[dbo].[Accidents_Master].[Number_of_Casualties],[dbo].[Accidents_Master].[Number_of_Vehicles],[dbo].[Accidents_Master].[Age_of_Casualty],[dbo].[Accidents_Master].[Age_of_Driver],[dbo].[Accidents_Master].[Age_of_Vehicle],[dbo].[Accidents_Master].[Engine_Capacity_CC],Age_of_Driver - Age_of_Casualty AS [AgeDifferenceDriverCasualty],CAST(Number_of_Casualties/Number_of_Vehicles as FLOAT) AS [CasualtiesPerVehicleInvolved],CAST(Number_of_Vehicles/Number_of_Casualties as FLOAT) AS [VehiclesPerCasualty],CAST(Age_of_Vehicle/Number_of_Casualties AS FLOAT) AS [AgeOfVehicleToCasualty]
+FROM [dbo].[Accidents_Master]
+WHERE [dbo].[Accidents_Master].[Age_of_Driver] &lt;18</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>665261</EstimatedRows>
+          <AggregationDesignID>AccidentsAggregationDesign99Percent</AggregationDesignID>
+        </Partition>
+        <Partition dwd:design-time-name="c66ef05e-05ee-4dc9-be95-abb8f2907712">
+          <ID>Accidents Master 18-40</ID>
+          <Name>Accidents Master 18-40</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="8d80fd10-1e60-4e56-8617-27bfdd1c459f">
+            <DataSourceID>UK Accidents Database</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[Accidents_Master].[Accident_key],[dbo].[Accidents_Master].[Accident_Index],[dbo].[Accidents_Master].[Casuality_Index],[dbo].[Accidents_Master].[Vehicle_Index],[dbo].[Accidents_Master].[Datetimekey],[dbo].[Accidents_Master].[Number_of_Casualties],[dbo].[Accidents_Master].[Number_of_Vehicles],[dbo].[Accidents_Master].[Age_of_Casualty],[dbo].[Accidents_Master].[Age_of_Driver],[dbo].[Accidents_Master].[Age_of_Vehicle],[dbo].[Accidents_Master].[Engine_Capacity_CC],Age_of_Driver - Age_of_Casualty AS [AgeDifferenceDriverCasualty],CAST(Number_of_Casualties/Number_of_Vehicles as FLOAT) AS [CasualtiesPerVehicleInvolved],CAST(Number_of_Vehicles/Number_of_Casualties as FLOAT) AS [VehiclesPerCasualty],CAST(Age_of_Vehicle/Number_of_Casualties AS FLOAT) AS [AgeOfVehicleToCasualty]
+FROM [dbo].[Accidents_Master]
+WHERE [dbo].[Accidents_Master].[Age_of_Driver] &lt; 41 and [dbo].[Accidents_Master].[Age_of_Driver] &gt; 17</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <AggregationDesignID>AccidentsAggregationDesign99Percent</AggregationDesignID>
+        </Partition>
+        <Partition dwd:design-time-name="7dae04f3-993b-4a46-bfb9-9e8a5d79575a">
+          <ID>Accidents Master 41-65</ID>
+          <Name>Accidents Master 41-65</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="58536600-0e1e-4728-bb27-c0cbfd07e96d">
+            <DataSourceID>UK Accidents Database</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[Accidents_Master].[Accident_key],[dbo].[Accidents_Master].[Accident_Index],[dbo].[Accidents_Master].[Casuality_Index],[dbo].[Accidents_Master].[Vehicle_Index],[dbo].[Accidents_Master].[Datetimekey],[dbo].[Accidents_Master].[Number_of_Casualties],[dbo].[Accidents_Master].[Number_of_Vehicles],[dbo].[Accidents_Master].[Age_of_Casualty],[dbo].[Accidents_Master].[Age_of_Driver],[dbo].[Accidents_Master].[Age_of_Vehicle],[dbo].[Accidents_Master].[Engine_Capacity_CC],Age_of_Driver - Age_of_Casualty AS [AgeDifferenceDriverCasualty],CAST(Number_of_Casualties/Number_of_Vehicles as FLOAT) AS [CasualtiesPerVehicleInvolved],CAST(Number_of_Vehicles/Number_of_Casualties as FLOAT) AS [VehiclesPerCasualty],CAST(Age_of_Vehicle/Number_of_Casualties AS FLOAT) AS [AgeOfVehicleToCasualty]
+FROM [dbo].[Accidents_Master]
+WHERE [dbo].[Accidents_Master].[Age_of_Driver] &lt; 66 and [dbo].[Accidents_Master].[Age_of_Driver] &gt; 40</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <AggregationDesignID>AccidentsAggregationDesign99Percent</AggregationDesignID>
+        </Partition>
+        <Partition dwd:design-time-name="05a79422-ef00-4f4a-8fd9-edd7b23b817d">
+          <ID>Accidents Master greater than 65</ID>
+          <Name>Accidents Master greater than 65</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="2b2fa9cc-6a7e-4ff2-a92c-f766abbc6664">
+            <DataSourceID>UK Accidents Database</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[Accidents_Master].[Accident_key],[dbo].[Accidents_Master].[Accident_Index],[dbo].[Accidents_Master].[Casuality_Index],[dbo].[Accidents_Master].[Vehicle_Index],[dbo].[Accidents_Master].[Datetimekey],[dbo].[Accidents_Master].[Number_of_Casualties],[dbo].[Accidents_Master].[Number_of_Vehicles],[dbo].[Accidents_Master].[Age_of_Casualty],[dbo].[Accidents_Master].[Age_of_Driver],[dbo].[Accidents_Master].[Age_of_Vehicle],[dbo].[Accidents_Master].[Engine_Capacity_CC],Age_of_Driver - Age_of_Casualty AS [AgeDifferenceDriverCasualty],CAST(Number_of_Casualties/Number_of_Vehicles as FLOAT) AS [CasualtiesPerVehicleInvolved],CAST(Number_of_Vehicles/Number_of_Casualties as FLOAT) AS [VehiclesPerCasualty],CAST(Age_of_Vehicle/Number_of_Casualties AS FLOAT) AS [AgeOfVehicleToCasualty]
+FROM [dbo].[Accidents_Master]
+WHERE [dbo].[Accidents_Master].[Age_of_Driver] &gt; 65</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <AggregationDesignID>AccidentsAggregationDesign99Percent</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AccidentsAggregationDesign99Percent</ID>
+          <Name>AccidentsAggregationDesign99Percent</Name>
+          <CreatedTimestamp>2018-11-25T02:30:26.103333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2018-11-25T02:30:26.103333Z</LastSchemaUpdate>
+          <EstimatedRows>665261</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Hour</AttributeID>
+                  <EstimatedCount>1112430</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Minute</AttributeID>
+                  <EstimatedCount>1112430</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Name</AttributeID>
+                  <EstimatedCount>4017</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                  <EstimatedCount>4017</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Of Month</AttributeID>
+                  <EstimatedCount>4017</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Vehicles</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Vehicle Index</AttributeID>
+                  <EstimatedCount>3262270</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vehicles - Point Of Impact</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vehicles - Journey Purpose</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vehicle Manoeuvre Desc</AttributeID>
+                  <EstimatedCount>3262270</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sex Of Driver Desc</AttributeID>
+                  <EstimatedCount>3262270</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vehicle Type Desc</AttributeID>
+                  <EstimatedCount>3262270</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Accidents</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Accident Index</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Speed Limit</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Accidents - Police Force</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Local Auth Highway</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Accidents - Weather Conditions</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Accidents - Road Surface Conditions</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Special Cond At Site</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Accidents - Police Officer Attend</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Road Type Desc</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Local Authority District Desc</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Light Conditions Desc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Accident Severity Desc</AttributeID>
+                  <EstimatedCount>1780653</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Casualties</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Casuality Index</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualty Area</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Maint Worker</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualties - Sex Of Casualty</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualties - Car Passenger</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualty Class Desc</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualty Severity Desc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Casualty Type Desc</AttributeID>
+                  <EstimatedCount>2402909</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Vehicles</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Accidents</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Casualties</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Day Of Month</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Vehicles</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Accidents</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Casualties</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Casualties</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="81f4f0d9-dccd-4666-8adf-400870130345">
+          <ID>Casualties</ID>
+          <Name>Casualties</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e261fa99-00d2-4418-ae95-ab1aad91d4af">
+            <DataSourceViewID>UK Accidents Database</DataSourceViewID>
+            <TableID>dbo_DimCasualties</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>2402909</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Date</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ae5dabbe-9630-46c5-99bd-126c6a201375">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c5ce57e0-ee99-472b-a820-4293bafd1201">
+            <DataSourceViewID>UK Accidents Database</DataSourceViewID>
+            <TableID>dbo_DimDate</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vehicles</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7525b198-cb92-4f2e-a428-74be05ec502d">
+          <ID>Vehicles</ID>
+          <Name>Vehicles</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="09f633e1-88bd-4832-a573-04725482655b">
+            <DataSourceViewID>UK Accidents Database</DataSourceViewID>
+            <TableID>dbo_DimVehicles</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
