@@ -7,9 +7,9 @@
         <Partition dwd:design-time-name="2ab69814-2314-4fd4-976a-5d8a60fbcc24">
           <ID>Accidents Master</ID>
           <Name>Accidents Master Q1</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="4c8e1407-1edb-420f-8d66-2a5de1064f99">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -26,9 +26,9 @@ WHERE [dbo].[Accidents_Master].[Datetimekey] &gt;=200501010000 AND [dbo].[Accide
         <Partition dwd:design-time-name="6b5cffc4-897f-463c-bb35-bd4fbfb38a0c">
           <ID>Accidents Master Q2</ID>
           <Name>Accidents Master Q2</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="cd2947e6-207b-46fc-a6c9-5ab41ac17754">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -44,9 +44,9 @@ WHERE [dbo].[Accidents_Master].[Datetimekey] &gt;200503309999 AND [dbo].[Acciden
         <Partition dwd:design-time-name="ceaaef2c-cd29-4fdd-8fb6-5149f5b34056">
           <ID>Accidents Master Q3</ID>
           <Name>Accidents Master Q3</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="aa9299f9-4b10-4056-b4a2-d42bbb0f7a85">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -62,9 +62,9 @@ WHERE [dbo].[Accidents_Master].[Datetimekey] &gt;200506309999 AND [dbo].[Acciden
         <Partition dwd:design-time-name="f5aeeba1-0b93-435a-875f-c43dd5634f97">
           <ID>Accidents Master Q4</ID>
           <Name>Accidents Master Q4</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="05b8f95d-91d6-40ab-b14d-455c1010c4e2">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -280,9 +280,9 @@ WHERE [dbo].[Accidents_Master].[Datetimekey] &gt;200509309999 AND [dbo].[Acciden
         <Partition dwd:design-time-name="63bc9e0b-01d9-45e8-b40e-0cff50de7446">
           <ID>Fact Accidents</ID>
           <Name>Fact Accidents Q1</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="32454d99-5962-4c74-b924-7559f1e94339">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -299,9 +299,9 @@ WHERE [dbo].[FactAccidents].[Datetimekey] &gt;=200501010000 AND [dbo].[FactAccid
         <Partition dwd:design-time-name="403463fe-a8b0-4a46-a8c1-92528661afb2">
           <ID>Fact Accidents Q2</ID>
           <Name>Fact Accidents Q2</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="ac2bd4e5-25e2-4f27-80aa-c413d11ddc51">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -317,9 +317,9 @@ WHERE [dbo].[FactAccidents].[datetimekey] &gt;200503319999 AND [dbo].[FactAccide
         <Partition dwd:design-time-name="2cecd125-04bf-41f7-ac2e-bdfc69cb22c3">
           <ID>Fact Accidents Q3</ID>
           <Name>Fact Accidents Q3</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="11594cc3-9c47-4fa2-a04c-3a07cd7511ab">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -335,9 +335,9 @@ WHERE [dbo].[FactAccidents].[datetimekey] &gt;200506309999 and [dbo].[FactAccide
         <Partition dwd:design-time-name="63225e89-a93c-498a-ad62-74bf48ca3052">
           <ID>Fact Accidents Q4</ID>
           <Name>Fact Accidents Q4</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="51084e64-5f1d-4547-b036-c699a0cfbab4">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -479,9 +479,9 @@ WHERE [dbo].[FactAccidents].[datetimekey] &gt;200509309999 and [dbo].[FactAccide
         <Partition dwd:design-time-name="91f3d4d8-a849-4c83-8e62-dc1fddfdb68f">
           <ID>Fact Casualties</ID>
           <Name>Fact Casualties Q1</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="10cc3679-1985-4fb7-9ae4-8044b4d3bfa9">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -498,9 +498,9 @@ WHERE [dbo].[FactCasualties].[datetimekey] &gt;=200501010000 and [dbo].[FactCasu
         <Partition dwd:design-time-name="4070aee7-ea83-4ede-a340-6592fe71954b">
           <ID>Fact Casualties Q2</ID>
           <Name>Fact Casualties Q2</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="fe94cb67-f6f9-4471-8a38-9bd9416ee236">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -516,9 +516,9 @@ WHERE [dbo].[FactCasualties].[datetimekey] &gt; 200503319999 and [dbo].[FactCasu
         <Partition dwd:design-time-name="fd41fb01-fc44-494f-b002-f7b6e74c58cf">
           <ID>Fact Casualties Q3</ID>
           <Name>Fact Casualties Q3</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="4e895c78-45ea-47bb-b21a-5516e917c206">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -534,9 +534,9 @@ WHERE [dbo].[FactCasualties].[datetimekey] &gt; 200506309999 and [dbo].[FactCasu
         <Partition dwd:design-time-name="5f9ee1d4-dfa5-439a-bf5d-ca63ed135c8d">
           <ID>Fact Casualties Q4</ID>
           <Name>Fact Casualties Q4</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="e7cab08c-cb01-4c7e-a453-44bc6704d45c">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -719,9 +719,9 @@ WHERE [dbo].[FactCasualties].[datetimekey] &gt; 200509309999 and [dbo].[FactCasu
         <Partition dwd:design-time-name="bf8b842e-3cdb-4287-8a69-af4e14fbc6cc">
           <ID>Fact Vehicles</ID>
           <Name>Fact Vehicles less than 18</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="a4bd13fa-5c4b-423d-b29b-6a9b23992686">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -738,9 +738,9 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &lt; 18</QueryDefinition>
         <Partition dwd:design-time-name="b9bcbfc7-1cee-43ca-81a5-ae0149822839">
           <ID>Fact Vehicles 18-40</ID>
           <Name>Fact Vehicles 18-40</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="3e03af2d-8ff7-452c-80b4-7fb3f8e7db2b">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -756,9 +756,9 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &gt;17 and [dbo].[FactVehicles].[Age_
         <Partition dwd:design-time-name="34617472-1cb6-4ddd-8a58-2db4e13c46f3">
           <ID>Fact Vehicles 41-65</ID>
           <Name>Fact Vehicles 41-65</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="5d70fb2c-6a8a-4906-b6f3-6d336a4cfd82">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -774,9 +774,9 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &gt; 40 and [dbo].[FactVehicles].[Age
         <Partition dwd:design-time-name="ab44152d-af80-48bb-86c6-1a9a99ea4fc6">
           <ID>Fact Vehicles greater than 65</ID>
           <Name>Fact Vehicles greater than 65</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="QueryBinding" dwd:design-time-name="f0a6fa0b-9ec6-4abc-95cc-1ba41183f73e">
             <DataSourceID>UK Accidents Database</DataSourceID>
@@ -823,33 +823,6 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &gt; 65</QueryDefinition>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Date</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension>
-              <CubeDimensionID>Vehicles</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Vehicle Index</AttributeID>
-                  <EstimatedCount>3262270</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Vehicles - Point Of Impact</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Vehicles - Journey Purpose</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Vehicle Manoeuvre Desc</AttributeID>
-                  <EstimatedCount>3262270</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Sex Of Driver Desc</AttributeID>
-                  <EstimatedCount>3262270</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Vehicle Type Desc</AttributeID>
-                  <EstimatedCount>3262270</EstimatedCount>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -914,9 +887,6 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &gt; 65</QueryDefinition>
                   <CubeDimensionID>Date</CubeDimensionID>
                 </Dimension>
                 <Dimension>
-                  <CubeDimensionID>Vehicles</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>Accidents</CubeDimensionID>
                 </Dimension>
               </Dimensions>
@@ -932,9 +902,6 @@ WHERE [dbo].[FactVehicles].[Age_of_Driver] &gt; 65</QueryDefinition>
                       <AttributeID>Day Of Month</AttributeID>
                     </Attribute>
                   </Attributes>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Vehicles</CubeDimensionID>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>Accidents</CubeDimensionID>
